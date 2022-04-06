@@ -1,0 +1,20 @@
+.dashboard {
+  width: 100%;
+  padding: 20px;
+}
+
+.main-content {
+  width: 100%;
+  padding: 15px;
+}
+
+.card {
+  background-color: #f7f7f7;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    margin-top: 15px!important;
+    background-color: #a39a9a;
+  }
+}
